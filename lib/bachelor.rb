@@ -21,7 +21,7 @@ data =
     {
       "name":      "Ashley Yeats",
       "age":       "24",
-      "hometown":  "New York, New York", #>"Denver, Colorado"
+      "hometown":  "Denver, Colorado", #>
       "occupation": "Dental Assitant",
       "status":    "Winner"
     },
