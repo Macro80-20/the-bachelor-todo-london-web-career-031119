@@ -12,7 +12,7 @@ data =
     {
       "name":       "Becca Tilley",
       "age":        "27",
-      "hometown":   "Shreveport, Louisiana",
+      "hometown":   "Great Falls, Virginia", #>"Shreveport, Louisiana"
       "occupation": "Chiropractic Assistant",
       "status":     "Eliminated Week 8"
     }
