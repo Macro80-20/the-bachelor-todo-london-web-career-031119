@@ -89,7 +89,7 @@ def get_occupation(data, hometown)
  contestant.each do |x|
    #binding.pry
    if x["hometown"] == hometown
-     occupation<<x["occupation"]
+     r = x["occupation"]
      return
      #binding.pry
    end
