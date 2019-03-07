@@ -77,14 +77,31 @@ def count_contestants_by_hometown(data, hometown)
   contestants_from_hometown
   #binding.pry
 end
+
 =begin
 Build a method get_occupation, that takes in two arguments––the data hash and a string of a hometown.
 It returns the occupation of the first contestant who hails from that hometown.
 =end
 def get_occupation(data, hometown)
-
+  occupation = ""
+ data.each do |season,contestant|
+   #binding.pry
+ contestant.each do |x|
+   #binding.pry
+   if x["hometown"] == hometown
+     occupation  = x["occupation"]
+     return
+     #binding.pry
+   end
+ end
+ occupation
 end
 get_occupation(data,"Cranston, Rhode Island") #> "Journalist"
+
+
+
+
+
 
 def get_average_age_for_season(data, season)
   # code here
