@@ -68,7 +68,7 @@ def count_contestants_by_hometown(data, hometown)
     #binding.pry
   contestant.each do |x|
     #binding.pry
-    if x["hometown"] == "hometown
+    if x["hometown"] == hometown
       contestants_from_hometown+=1
       #binding.pry
     end
