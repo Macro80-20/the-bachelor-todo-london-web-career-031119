@@ -86,12 +86,11 @@ def get_occupation(data, hometown)
 
  data.each do |season,contestant|
    #binding.pry
-   e = ""
  contestant.each do |x|
    #binding.pry
    if x["hometown"] == hometown
      r = x["occupation"]
-     e<<r
+     return r
      binding.pry
    end
    end
