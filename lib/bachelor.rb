@@ -83,13 +83,14 @@ Build a method get_occupation, that takes in two arguments––the data hash an
 It returns the occupation of the first contestant who hails from that hometown.
 =end
 def get_occupation(data, hometown)
-  occupation = ""
+  
  data.each do |season,contestant|
    #binding.pry
  contestant.each do |x|
    #binding.pry
    if x["hometown"] == hometown
      r = x["occupation"]
+     return r 
      binding.pry
    end
    end
