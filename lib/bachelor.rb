@@ -119,17 +119,6 @@ get_average_age_for_season(data,"season 10")
 #binding.pry
 
 =begin
-method one arr.sum.to_f / arr.size 
-method two arr.reduce(:+)/arr.size.to_f  #> reduce , reduces an array into a single array 
+method one arr.sum.to_f / arr.size
+method two arr.reduce(:+)/arr.size.to_f  #> reduce , reduces an array into a single array
 method three
-
-
-
-
-
-
-
-
-
-
-
