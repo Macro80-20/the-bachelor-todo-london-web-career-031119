@@ -98,10 +98,10 @@ def get_occupation(data, hometown)
 end
 
 =begin
-How will you collect the ages of 
+How will you collect the ages of
 each contestant and average them? Remember that the values of the "age" keys are not numbers, they are strings. How do we convert strings to numbers in Ruby?
-Remember that dividing integers in Ruby always rounds down. 
-In this case though, we want the normal math sort of rounding (where .5 and higher rounds up), 
+Remember that dividing integers in Ruby always rounds down.
+In this case though, we want the normal math sort of rounding (where .5 and higher rounds up),
 instead. Consider the difference between to_f and to_i.
 =end
 
@@ -109,7 +109,7 @@ def get_average_age_for_season(data, season)
 
   # code here
 end
-#>iterates through the hash and returns the average age 
+#>iterates through the hash and returns the average age
 get_average_age_for_season(data,"season 10")
 
 
