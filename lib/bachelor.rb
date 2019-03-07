@@ -122,3 +122,4 @@ end
 method one arr.sum.to_f / arr.size
 method two arr.reduce(:+)/arr.size.to_f  #> reduce , reduces an array into a single array
 method three
+=end
