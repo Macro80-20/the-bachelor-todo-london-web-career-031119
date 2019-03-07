@@ -91,13 +91,13 @@ def get_occupation(data, hometown)
    if x["hometown"] == hometown
      r = x["occupation"]
      return r
-     binding.pry
+     #binding.pry
    end
    end
  end
 end
 get_occupation(data,"Great Falls, Virginia") #> "Journalist"
-binding.pry
+#binding.pry
 
 
 
