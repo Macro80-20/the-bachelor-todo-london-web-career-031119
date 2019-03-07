@@ -97,7 +97,8 @@ def get_occupation(data, hometown)
  end
  occupation
 end
-#get_occupation(data,"Cranston, Rhode Island") #> "Journalist"
+get_occupation(data,"Great Falls, Virginia") #> "Journalist"
+binding.pry
 
 
 
