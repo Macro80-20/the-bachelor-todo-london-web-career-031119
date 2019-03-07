@@ -93,6 +93,7 @@ def get_occupation(data, hometown)
      return
      #binding.pry
    end
+   end
  end
  occupation
 end
