@@ -96,15 +96,9 @@ def get_occupation(data, hometown)
    end
  end
 end
-get_occupation(data,"Great Falls, Virginia") #> "Journalist"
-#binding.pry
-
-
-
-
-
 
 def get_average_age_for_season(data, season)
+  
   # code here
 end
 
