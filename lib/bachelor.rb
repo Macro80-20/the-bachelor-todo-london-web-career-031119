@@ -106,11 +106,30 @@ instead. Consider the difference between to_f and to_i.
 =end
 
 def get_average_age_for_season(data, season)
-
-  # code here
+  array_of_ages_within_season = []
+  data["#{season}"].each do |x|
+    array_of_ages_within_season<< x["age"].to_i #> " NUMBER"
+  end
+ average_age = array_of_ages_within_season.reduce(:+)/array_of_ages_within_season
 end
 #>iterates through the hash and returns the average age
 get_average_age_for_season(data,"season 10")
 
 
 #binding.pry
+
+=begin
+method one arr.sum.to_f / arr.size 
+method two arr.reduce(:+)/arr.size.to_f  #> reduce , reduces an array into a single array 
+method three
+
+
+
+
+
+
+
+
+
+
+
