@@ -110,7 +110,7 @@ def get_average_age_for_season(data, season)
   data["#{season}"].each do |x|
     array_of_ages_within_season<<x["age"].to_i #> " NUMBER"
   end
- average_age = array_of_ages_within_season.reduce(:+)/array_of_ages_within_season.size
+ average_age = array_of_ages_within_season.reduce(:+)/array_of_ages_within_season.size.round
 end
 #>iterates through the hash and returns the average age
 #get_average_age_for_season(data,"season 10")
