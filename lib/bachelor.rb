@@ -70,7 +70,7 @@ def count_contestants_by_hometown(data, hometown)
     #binding.pry
     if x["hometown"] == "New York, New York"
       contestants_from_hometown+=1
-      binding.pry
+      #binding.pry
     end
   end
   end
