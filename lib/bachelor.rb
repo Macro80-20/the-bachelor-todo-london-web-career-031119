@@ -90,8 +90,7 @@ def get_occupation(data, hometown)
    #binding.pry
    if x["hometown"] == hometown
      r = x["occupation"]
-     return
-     #binding.pry
+     binding.pry
    end
    end
  end
